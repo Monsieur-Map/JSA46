@@ -9,9 +9,9 @@
     grid-gap: 10px 10px;
 }
 
-.body{
+body{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .item{
@@ -37,8 +37,10 @@
 }
 
 #item3 {
+    /* Bôi hàng 1->2 */
     grid-row-start: 1;
     grid-row-end: 3;
+    /* Bôi cột 4->6 */
     grid-column-start: 4;
     grid-column-end: 7;
 }
@@ -48,6 +50,7 @@
 
 
 #item6{
+    /* Bôi cột 4->6 */
     grid-column-start: 4;
     grid-column-end: 7;
 }
@@ -57,49 +60,59 @@
 }
 
 #item8 {
+    /* Bôi hàng 4->6 */
     grid-row-start: 4;
     grid-row-end: 7;
+    /* Bôi cột 1->2 */
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 #item9 {
     background-color: violet;
+    /* Tô cột 4->5 */
     grid-row-start: 4;
     grid-row-end: 6;
+    /* Tô cột 3->4 */
     grid-column-start: 3;
     grid-column-end: 5;;
 }
 
 #item10 {
+    /* Bôi cột 5-> 7 ở hàng 4 */
     grid-column-start: 5;
     grid-column-end: 8;
 }
 
 #item11 {
-    /* Lấy hàng 5,6 */
+    /*Tô hàng 5,6 */
     grid-row-start: 5; 
     grid-row-end: 7;
-    /* Lấy cột 5,6,7 */
+    /* Tô cột 5,6,7 */
     grid-column-start: 5;
     grid-column-end: 8;
     background-color: orange;
 }
 
 #item12 {
+    /* Tô cột 1->2 ở hàng 7 */
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: pink;
 }
 
 #item13 {
+    /* Bôi hàng 6->7 */
     grid-row-start: 6;
     grid-row-end: 8;
+    /* Bôi cột 3->4 */
     grid-column-start: 3;
     grid-column-end: 5;
+    /* Bôi thành được ô 4x4 */
 }
 
 #item14{
+    /* Bôi cột 5->7 */
     grid-column-start: 5;
     grid-column-end: 8;
 }
