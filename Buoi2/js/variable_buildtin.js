@@ -43,23 +43,23 @@
 
 
 // *** set interval ***  (Thời gian lặp lại giữa hai ev -> có thể gọi nó là chu kỳ)
-const id1 = setInterval(()=>{
-    // HTML dom
-    document.getElementsByTagName("body")[0]
-    .innerHTML += "<h1>Bonjour<h1>";
-}, 1000); //1000ms -> tương ứng 1s
+// const id1 = setInterval(()=>{
+//     // HTML dom
+//     document.getElementsByTagName("body")[0]
+//     .innerHTML += "<h1>Bonjour<h1>";
+// }, 1000); //1000ms -> tương ứng 1s
 
-const id2 = setInterval(()=>{
-    // HTML dom
-    document.getElementsByTagName("body")[0]
-    .innerHTML += "<h1>À bien tôt<h1>";
-}, 1000); 
+// const id2 = setInterval(()=>{
+//     // HTML dom
+//     document.getElementsByTagName("body")[0]
+//     .innerHTML += "<h1>À bien tôt<h1>";
+// }, 1000); 
 
-//Sau 5 lần chạy -> STOP
-setTimeout(() => {
-    clearInterval(id1);
-    //      call back function
-    setTimeout(() => {
-        clearInterval(id2);
-    }, 5000);
-}, 5000); //5000ms -> 5s
+// //Sau 5 lần chạy -> STOP
+// setTimeout(() => {
+//     clearInterval(id1);
+//     //      call back function
+//     setTimeout(() => {
+//         clearInterval(id2);
+//     }, 5000);
+// }, 5000); //5000ms -> 5s
