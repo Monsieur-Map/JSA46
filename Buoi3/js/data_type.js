@@ -28,3 +28,19 @@
 // toán tử so sánh -------------------------------------------------
 // console.log("1" !== 1); //true
 // console.log("1" === 1); //false
+
+// Toan tu 3 ngoi ------------------------------
+// const func = () => "a";
+// function func() {
+//   return "a";
+// }
+
+let a;
+if (a) a = "abc";
+else a = 123;
+
+const b = a ? (a = "abc") : (a = 123);
+// <dieu kien> ? <true> : <false>
+
+let arr;
+arr?.forEach((item) => console.log(item));

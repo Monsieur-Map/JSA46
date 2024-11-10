@@ -5,25 +5,25 @@
  * dieu kien dung => moi lan chay deu kiem lai
  * tang bien dem => moi lan chay deu thuc thi
  */
-for (let index = 1; index < 101; index++) {
-    console.log(`This is ${index} times`);
-}
+// for (let index = 1; index < 101; index++) {
+//     console.log(`This is ${index} times`);
+// }
 
-for (let index = 1; index < 101; index++) {
-    console.log(`This is ${index} times`);
-}
+// for (let index = 1; index < 101; index++) {
+//     console.log(`This is ${index} times`);
+// }
   
-var i = 0;
-for (; i < 100; ) {
-    i++;
-    console.log(i);
-}
+// var i = 0;
+// for (; i < 100; ) {
+//     i++;
+//     console.log(i);
+// }
   
-// duyet qua phan tu trong array
-var arr = new Array(10); // danh sach rong
-arr[0] = "a";
-for (let index = 0; index < arr.length; index++) {
-    console.log(index + 1, ":", arr[index]); // undefined
-}
+// // duyet qua phan tu trong array
+// var arr = new Array(10); // danh sach rong
+// arr[0] = "a";
+// for (let index = 0; index < arr.length; index++) {
+//     console.log(index + 1, ":", arr[index]); // undefined
+//   }
   
-arr.forEach((item) => console.log(item));
+//   arr.forEach((item) => console.log(item));
