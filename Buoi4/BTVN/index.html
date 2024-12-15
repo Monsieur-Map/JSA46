@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #task-form {
+      margin-bottom: 20px;
+    }
+    .task {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+    button {
+      margin-left: 10px;
+    }
+  </style>
+<body>
+    <h1> Task Tracker</h1>
+    <form id="task-form">
+        <input type="text" id="task-title" placeholder="Vui lòng nhập vào form" required>
+        <button type="submit">Add Task</button>
+    </form>
+    <div id="task-list"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

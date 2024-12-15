@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo lập hồ sơ</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Online Profile</h1>
+  <form id="profileForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="avatar">Avatar URL:</label>
+    <input type="url" id="avatar" name="avatar" required>
+
+    <button type="submit">Save Profile</button>
+  </form>
+
+  <div id="profileDisplay" class="profile" style="display: none;">
+    <h2>Your Profile</h2>
+    <img id="profileAvatar" alt="Avatar">
+    <p><strong>Name:</strong> <span id="profileName"></span></p>
+    <p><strong>Email:</strong> <span id="profileEmail"></span></p>
+    <p><strong>Phone:</strong> <span id="profilePhone"></span></p>
+    <p><strong>Address:</strong> <span id="profileAddress"></span></p>
+    <button id="editProfile">Edit Profile</button>
+  </div>
+
+  <script src="./BTVN/js/script.js"></script>
+</body>
+</html>
