@@ -43,7 +43,7 @@ document
   .getElementById("search_btn")
   .addEventListener("click", function (event) {
     //Không cho website load theo mặc định
-    event.preventDefualt();
+    event.preventDefault();
     //Lấy dữ liệu từ input
     const pokemon_name = document.getElementById("search_inp").value.trim();
     //Nếu không có dữ liệu nhận được (SEARCH KHÔNG ĐÚNG TÊN POKEMON CẦN TÌM KIẾM)
